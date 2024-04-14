@@ -6,9 +6,10 @@ My career is focused on where data science, trust & safety/compliance and privac
  - SQL
  - Python
  - Regex
+ - Graph data science
  - Machine Learning
  - Natural Language Processing
 
 ## Want to get in touch?
-Contact me at mtkalish@gmail.com
+Contact me at michael.kalish@berkeley.edu
 
