@@ -17,20 +17,20 @@ My career intersects data science, trust & safety/compliance, and privacy. I lea
 
 Below is the structure of this repository, which includes various files and directories associated with my projects:
 
-personal_portfolio/
-├── Dockerfile
-├── docker-compose.yaml
-├── requirements.txt
-├── README.md
-└── src/
-├── data/
-│ └── raw/
-│ └── emails.csv
-└── notebooks/
-├── a_b_test.ipynb
-├── lr_from_scratch
-├── nn_from_scratch
-└── tf_idf_from_scratch
+- **personal_portfolio/**
+  - Dockerfile
+  - docker-compose.yaml
+  - requirements.txt
+  - README.md
+  - **src/**
+    - **data/**
+      - **raw/**
+        - emails.csv
+    - **notebooks/**
+      - a_b_test.ipynb
+      - lr_from_scratch
+      - nn_from_scratch
+      - tf_idf_from_scratch
 
 ## Contact Me
 
