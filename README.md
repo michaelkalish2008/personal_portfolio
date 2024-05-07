@@ -17,20 +17,20 @@ My career intersects data science, trust & safety/compliance, and privacy. I lea
 
 Below is the structure of this repository, which includes various files and directories associated with my projects:
 
-- **personal_portfolio/**
-  - Dockerfile
-  - docker-compose.yaml
-  - requirements.txt
-  - README.md
-  - **src/**
+**personal_portfolio/**
+  - **Dockerfile**: Configuration file for Docker, used to build Docker containers.
+  - **docker-compose.yaml**: A YAML file for defining and running multi-container Docker applications.
+  - **requirements.txt**: Lists all Python libraries required by the projects within the repository.
+  - **README.md**: Provides an overview of the repository contents and instructions.
+  - **src/**: Source code directory containing project-specific subdirectories.
     - **data/**
-      - **raw/**
-        - emails.csv
+      - **raw/**: Raw data files used in projects, exemplified by `emails.csv`.
     - **notebooks/**
-      - a_b_test.ipynb
-      - lr_from_scratch
-      - nn_from_scratch
-      - tf_idf_from_scratch
+      - **a_b_test.ipynb**: Notebook detailing A/B testing procedures.
+      - **lr_from_scratch**: Notebook demonstrating how to build a logistic regression model from scratch.
+      - **nn_from_scratch**: Explains the construction of a neural network from the ground up.
+      - **tf_idf_from_scratch**: Illustrates how to implement TF-IDF from scratch in Python.
+
 
 ## Contact Me
 
