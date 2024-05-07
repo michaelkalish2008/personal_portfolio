@@ -1,0 +1,13 @@
+numpy
+pandas
+matplotlib
+seaborn
+networkx
+torch
+transformers
+regex
+notebook
+jupyter
+pyvis
+scipy
+scikit-learn
