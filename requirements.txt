@@ -11,3 +11,5 @@ jupyter
 pyvis
 scipy
 scikit-learn
+configparser
+requests
