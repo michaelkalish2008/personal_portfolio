@@ -1,8 +1,8 @@
 # Personal Portfolio
 
-Welcome to my GitHub portfolio! Data science is about posing questions and using data to get context, insight and perspective for making quick and thoughtful decision. While I enjoy applying data science everywhere, there is a special place in my heart for trust & safety, compliance, and privacy. 
+Welcome to my GitHub portfolio! You might know me from the Netflix show "You are What You Eat" or as co-winner of Food Network's "Great Food Truck Race" (Series 7) and co-finalists on "Chopped" (Twins for the Win). I have worn a lot of hats, which has given my career in Data Science a special flavor. 
 
-This repository showcases my skills as both a data scientist and a problem solver. It's a living document, regularly updated as I develop new skills and complete projects, providing a comprehensive overview of my coding abilities and achievements.
+Data science is about posing questions and using data to get context, insight and perspective for making quick and thoughtful decision. This repository showcases my skills as both a data scientist and a problem solver. It's a living document, regularly updated as I develop new skills and complete projects, providing a comprehensive overview of my coding abilities and achievements.
 
 ## Introduction
 
@@ -20,9 +20,9 @@ My career intersects data science, trust & safety/compliance, and privacy. I lea
 Below is the structure of this repository, which includes various files and directories associated with my projects:
 
 **personal_portfolio/**
-  - **Dockerfile**: Configuration file for Docker, used to build Docker containers.
-  - **docker-compose.yaml**: A YAML file for defining and running multi-container Docker applications. While using pip and anaconda are great, Docker is clean, easy to reproduce and when things go sideways, you can start fresh! 
-  - **requirements.txt**: Lists all Python libraries required by the projects within the repo and used to pre-configure new Docker containers.
+  - **Dockerfile**: Configuration file for Docker, used to build Docker containers. Once you go Docker, it's so hard to go back to running pip and anaconda straight on my computer...just build an image and run containers when you need them! Something goes wrong with the environment? Destroy the container and create a new one. Amazing.
+  - **docker-compose.yaml**: A YAML file starting up a new docker container. Just execute "docker-compose up -d' from the directory and you got yourself a working environment for the whole repo!
+  - **requirements.txt**: Lists all Python libraries required by the projects within the repo and used to build the docker image I use.
   - **README.md**: You are reading me right now 😀
   - **src/**: Source code directory containing project-specific subdirectories.
     - **data/**: Raw data files used in projects.
