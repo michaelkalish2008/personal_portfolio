@@ -13,3 +13,7 @@ scipy
 scikit-learn
 configparser
 requests
+lxml
+langchain
+langchain-openai
+python-dotenv
