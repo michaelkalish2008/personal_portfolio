@@ -4,6 +4,6 @@ services:
     ports:
       - "8888:8888"
     volumes:
-      - ./personal_portfolio:/usr/src/app
+      - /Users/michaelkalish/Documents/GitHub/personal_portfolio/:/usr/src/app
     env_file:
       - .env
