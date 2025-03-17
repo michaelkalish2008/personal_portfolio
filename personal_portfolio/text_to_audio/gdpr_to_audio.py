@@ -1,4 +1,11 @@
-# TEXT-AUDIO TRANSCRIPTION USING THE GTTS LIBRARY
+"""
+TEXT-AUDIO TRANSCRIPTION USING THE GTTS LIBRARY
+
+This script is used to convert text to audio using the Google Text-to-Speech (gTTS) library.
+I was preparing for the IAPP CIPP/E exam and wanted to listen to the GDPR text while I was
+driving. This script was used to convert the GDPR text to audio.
+
+"""
 
 # STEP 1: Download/import transcription package
 from gtts import gTTS
