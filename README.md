@@ -23,19 +23,19 @@ Below is the structure of this repository, which includes various files and dire
   - **Dockerfile**: Configuration file for Docker, used to build Docker containers. Once you go Docker, it's so hard to go back to running pip and anaconda straight on my computer...just build an image and run containers when you need them! Something goes wrong with the environment? Destroy the container and create a new one. Amazing.
   - **docker-compose.yaml**: A YAML file starting up a new docker container. Just execute "docker-compose up -d' from the directory and you got yourself a working environment for the whole repo!
   - **requirements.txt**: Lists all Python libraries required by the projects within the repo and used to build the docker image I use.
-  - **src/**: Source code directory containing project-specific subdirectories.
-    - **data/**: Raw data files used in projects.
-    - **classification/**: non-deep learning ML-based classification
-    - **regression/**: non-deep learning ML-based regression
-    - **ml_from_scratch**: logistic regression and a neural net from scratch for binary classification
-    - **regex**: Use of regular expressions for handling text data
-    - **webscraping**: Webscraping of shark attacks in Hawaii
-    - **api_calls**: Calls to the FDA and USDA APIs for recall data
+  - **data/**: Raw data files used in projects.
+  - **genai/**: Use of LLMs to parse, summarize and reformat unstructured text data pulled from an FDA webpage
+  - **classification/**: non-deep learning ML-based classification
+  - **ml_from_scratch**: logistic regression and a neural net from scratch for binary classification
+  - **pdf_to_table**: pdf data extraction and conversion to a table format
+  - **text_to_audio**: A simple conversion of text to audio using gTTS (a transcription package)
+  - **webscraping**: Webscraping of a database containing shark attack data for Hawaii
+  - **fda_and_usda_apis**: Calls to the FDA and USDA APIs for recall data, which is reformatted into a table
 
 ## Contact Me
 
 Interested in collaborating or learning more about my work? Feel free to reach out!
 
-- **Email**: [michael.kalish@berkeley.edu](mailto:michael.kalish@berkeley.edu)
+- **Email**: [mtkalish@gmail.com](mtkalish@gmail.com)
 
 
