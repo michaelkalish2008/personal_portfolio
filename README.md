@@ -15,6 +15,17 @@ My career intersects data science, trust & safety/compliance, and privacy. I lea
 - **Machine Learning**
 - **Natural Language Processing**
 
+# Setup
+
+1. Create a venv
+/opt/homebrew/bin/python3.12 -m venv venv
+
+2. Activate it on mac
+source venv/bin/activate
+
+3. Install your packages
+pip install -r requirements.txt
+
 ## Repository Structure
 
 Below is the structure of this repository, which includes various files and directories associated with my projects:

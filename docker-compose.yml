@@ -1,9 +1,0 @@
-services:
-  notebook:
-    build: .
-    ports:
-      - "8888:8888"
-    volumes:
-      - /Users/michaelkalish/Documents/GitHub/personal_portfolio/:/usr/src/app
-    env_file:
-      - .env
